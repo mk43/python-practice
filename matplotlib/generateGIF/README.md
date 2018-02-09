@@ -1,6 +1,6 @@
 ## Generate GIF By Matplotlib
 
-Under this directory, you can download these files and run it, then you will find how it works by reading these easy code and running results. before you run it, please make sure installed `numpy`, `matplotlib ` and `ImageMagick` lib in your environment.
+Under this directory, you can download these files and run it, then you will find how it works by reading these easy code and consider running results. before you run it, please make sure you have installed `numpy`, `matplotlib ` and `ImageMagick` lib in your runing environment.
 
 But I want to make a simple introduce for you. there are two ways to draw graph with `matplotlib.animation`. 
 
@@ -28,7 +28,7 @@ a trap is you must name plot graph with comma end. In above example, the name is
 
 ![](https://raw.githubusercontent.com/mk43/python-practice/master/matplotlib/generateGIF/resetvalue.gif)
 
-another way is clean the front frame and plot next frame. In short, It's redraw graph.
+another way is clean the front frame and plot the next frame on. In short, It's redraw the graph.
 
 ```
 fig, ax = plt.subplots()
@@ -53,7 +53,7 @@ this way has no more limitations, you can do what you want freely.
 
 ![](https://raw.githubusercontent.com/mk43/python-practice/master/matplotlib/generateGIF/redraw.gif)
 
-I provide a machine learning demo by using liner regression to simute linear function. you can help yourself understand it by reading source code I post.
+I provide a machine learning demo by using liner regression to simulate linear function. you can help yourself understand it by reading source code I posted.
 
 [see more](http://fitzeng.org/2018/02/08/MatplotlibGenerateGif/)
 
