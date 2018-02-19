@@ -49,11 +49,11 @@ def animate(i):
 animation = animation.FuncAnimation(fig=fig, func=animate, frames=100, init_func=init, interval=20, blit=False)
 ```
 
-this way has no more limitations, you can do what you want freely.
+this way has no more limitations, you can do whatever you want freely.
 
 ![](https://raw.githubusercontent.com/mk43/python-practice/master/matplotlib/generateGIF/redraw.gif)
 
-I provide a machine learning demo by using liner regression to simulate linear function. you can help yourself understand it by reading source code I posted.
+I provide a machine learning demo by using liner regression to simulate linear function. you can help yourself understand it by reading source code that I posted.
 
 [see more](http://fitzeng.org/2018/02/08/MatplotlibGenerateGif/)
 
